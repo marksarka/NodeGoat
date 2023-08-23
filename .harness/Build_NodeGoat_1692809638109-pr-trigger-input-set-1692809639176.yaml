@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_NodeGoat_1692809638109-pr-trigger-input-set
+  identifier: Build_NodeGoat_1692809638109prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_NodeGoat_1692809638109
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
